@@ -1,12 +1,15 @@
 {
-  "name": "ComponentDemo",
+  "name": "share_component",
+  "homepage": "https://github.com/thongtrannguyenanh/share_component",
   "authors": [
     "Thong Tran Nguyen Anh <thong.tran@orientsoftware.net>"
   ],
-  "description": "demo",
-  "main": "",
+  "description": "share component demo",
+  "main": "index.html",
+  "keywords": [
+    "sharecomponent"
+  ],
   "license": "MIT",
-  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
