@@ -1,0 +1,20 @@
+{
+  "name": "share_component",
+  "homepage": "https://github.com/thongtrannguyenanh/share_component",
+  "authors": [
+    "Thong Tran Nguyen Anh <thong.tran@orientsoftware.net>"
+  ],
+  "description": "share component demo",
+  "main": "index.html",
+  "keywords": [
+    "sharecomponent"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
