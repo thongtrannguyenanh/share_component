@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html ng-app="shareComponent">
+<head>
+    <title></title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <script src="shareComponent.js"></script>
+    <script src="indexCtrl.js"></script>
+
+    <script src="components/parent/parentCtrl.js"></script>
+    <script src="components/child1/child1Ctrl.js"></script>
+    <script src="components/child2/child2Ctrl.js"></script>
+
+    <script src="components/parent/parent.js"></script>
+    <script src="components/child1/child1.js"></script>
+    <script src="components/child2/child2.js"></script>
+
+</head>
+<body ng-controller="indexCtrl as vm">
+    <parent-component parent-data="'say hello!'" child1-data="'say 123'" child2-data="'say 456'" child1-external-click="vm.child1ExternalClick()"></parent-component>
+</body>
+</html>

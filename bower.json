@@ -1,0 +1,17 @@
+{
+  "name": "ComponentDemo",
+  "authors": [
+    "Thong Tran Nguyen Anh <thong.tran@orientsoftware.net>"
+  ],
+  "description": "demo",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
